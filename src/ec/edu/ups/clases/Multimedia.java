@@ -6,7 +6,7 @@
 package ec.edu.ups.clases;
 
 /**
- *@author vinicio campoverde
+ * @author vinicio campoverde
  * @author Usuario
  */
 public class Multimedia {
