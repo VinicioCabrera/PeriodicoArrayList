@@ -6,8 +6,14 @@
 package ec.edu.ups.clases;
 
 /**
- *
- * @author Usuario
+ * EstructuraPeriodico
+ * 
+ * Clase que permite estructurar mi periodico digital
+ * 
+ * @version 2.0
+ * @since 2019
+ * @author Gabriel
+ * @see http://ups.edu.ec
  */
 public class EstructuraPeriodico {
 
@@ -15,25 +21,34 @@ public class EstructuraPeriodico {
     private String nombrePeriodico;
     private String fecha;
 
+    /**
+     * 
+     * @return 
+     */
+    public String getUbicacion() {
+        return ubicacion;
+    }
+
     public void setUbicacion(String ubicacion) {
         this.ubicacion = ubicacion;
+    }
+
+    public String getNombrePeriodico() {
+        return nombrePeriodico;
     }
 
     public void setNombrePeriodico(String nombrePeriodico) {
         this.nombrePeriodico = nombrePeriodico;
     }
 
+    public String getFecha() {
+        return fecha;
+    }
+
     public void setFecha(String fecha) {
         this.fecha = fecha;
-    }
-    public String getUbicacion(){
-        return this.ubicacion;
-    }
-    public String getNombrePeriodico(){
-        return this.nombrePeriodico;
-    }
-    public String getFecha(){
-        return this.fecha;
-    }
+    }       
+
+    
 
 }
