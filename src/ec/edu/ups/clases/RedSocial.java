@@ -6,8 +6,10 @@
 package ec.edu.ups.clases;
 
 /**
- *
- * @author Estudiante
+ * @version 2.0
+ * @since 2019
+ * @author Vinicio campoverde
+ * @see http://ups.edu.ec
  */
 public class RedSocial {
     private int codigo;

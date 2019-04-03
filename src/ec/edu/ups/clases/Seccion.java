@@ -6,8 +6,10 @@
 package ec.edu.ups.clases;
 
 /**
- *
- * @author Usuario
+ * @version 2.0
+ * @since 2019
+ * @author Vinicio campoverde
+ * @see http://ups.edu.ec
  */
 public class Seccion {
 
@@ -21,5 +23,13 @@ public class Seccion {
 
     public String getNombre() {
         return this.nombre;
+    }
+
+    public String getNoticia() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setNoticia(String sub_20_gana_el_mundial) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
